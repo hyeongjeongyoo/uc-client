@@ -1,0 +1,21 @@
+/* 이동하는 포인트들 */
+@keyframes move-on-path {
+  /* 시작점 (Top) */
+  0% { offset-distance: 0%; }
+  5% { offset-distance: 0%; } /* 0.4s 정지 */
+  
+  /* Top -> Right */
+  25% { offset-distance: 25%; }
+  30% { offset-distance: 25%; } /* 0.4s 정지 */
+
+  /* Right -> Bottom */
+  50% { offset-distance: 50%; }
+  55% { offset-distance: 50%; } /* 0.4s 정지 */
+  
+  /* Bottom -> Left */
+  75% { offset-distance: 75%; }
+  80% { offset-distance: 75%; } /* 0.4s 정지 */
+
+  /* Left -> Top (완료) */
+  100% { offset-distance: 100%; }
+}
