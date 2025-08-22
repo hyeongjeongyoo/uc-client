@@ -198,7 +198,7 @@ export const NodeButtons = ({
                     as="div"
                     fontWeight={800}
                     fontSize="16px"
-                    color="#0D344E"
+                    color="#187484"
                     py={5}
                     m={0}
                     whiteSpace="nowrap"
@@ -216,7 +216,7 @@ export const NodeButtons = ({
                     as="div"
                     fontSize="14px"
                     lineHeight="1.2"
-                    color="#0D344E"
+                    color="#187484"
                     textAlign="left"
                     mt={0}
                   >
@@ -228,7 +228,7 @@ export const NodeButtons = ({
                       right: 20,
                       bottom: 20,
                       fontWeight: 700,
-                      color: "#0D344E",
+                      color: "#187484",
                     }}
                     variants={{ hover: { opacity: 1, y: 0 } }}
                     initial={{ opacity: 0, y: 4 }}
